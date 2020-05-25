@@ -7,7 +7,7 @@
       <el-form-item label="文件：" prop="link">
         <file-upload v-model="userFile.link"></file-upload>
       </el-form-item>
-      <el-form-item label="封面图片：" >
+      <el-form-item label="封面图片：">
         <file-upload v-model="userFile.coverPicture"></file-upload>
       </el-form-item>
       <el-form-item label="简介：">
